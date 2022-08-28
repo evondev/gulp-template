@@ -1,0 +1,1 @@
+- Install package gulp-image at version ^7.0.1 with command `npm install gulp-imagemin@^7.0.1`
