@@ -13,8 +13,8 @@ const options = {
     all: "app/views/**/*.pug",
   },
   styles: {
-    src: "app/scss/**/*.scss",
-    dest: "public/css",
+    src: "app/styles/**/*.scss",
+    dest: "public/styles",
   },
   scripts: {
     src: "app/scripts/**/*.js",
