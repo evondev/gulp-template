@@ -114,7 +114,7 @@ function watchFiles() {
 }
 const watching = parallel(watchFiles, browserSync);
 const build = series(
-  clean,
+  // clean,
   parallel(renderStyles, renderViews, renderScripts, renderImages, renderFonts)
 );
 exports.clean = clean;
